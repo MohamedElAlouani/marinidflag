@@ -1,0 +1,104 @@
+#container {
+	height: 400px;
+	width: 1300px;
+}
+
+#flag {
+	height: 400px;
+	width: 600px;
+	background-color: #ff5a5a;
+	position: relative;
+	float:left;
+	cursor: pointer;
+}
+
+#border {
+	height: 340px;
+	width: 540px;
+	background-color: transparent;
+	border-top: 10px solid #f7f94d;
+	border-right: 10px solid #f7f94d;
+	border-bottom: 10px solid #f7f94d;
+	border-left: 10px solid #f7f94d;	
+	margin-left: 20px;
+	margin-top: 20px;	
+	position: absolute;	
+}
+
+#message {
+	font-size: 40px;
+	color: #f7f94d;
+	height: 40px;
+	width: 200px;
+	margin-top: 10px;
+	margin-left: 230px;
+	opacity: 0;
+	position: absolute;
+	transition: opacity 0.2s ease;
+}
+
+.square {
+	height: 130px;
+	width: 130px;
+	background-color: transparent;
+	border-top: 10px solid #f7f94d;
+	border-right: 10px solid #f7f94d;
+	border-bottom: 10px solid #f7f94d;
+	border-left: 10px solid #f7f94d;	
+	margin-left: 235px;
+	margin-top: 135px;	
+	position: absolute;	
+}
+
+#firstSquare {
+	transition: transform 10s ease;	
+}
+
+#secondSquare {
+	transform: rotate(45deg);
+	transition: transform 10.5s ease;
+}
+
+#userInput {
+	height: 200px;
+	width: 700px;
+	position: relative;
+	float:left;
+	opacity: 0;
+}
+
+#question {
+	height: 70px;
+	width: 600px;
+}
+
+#question > p {
+	font-size: 20px;
+	font-family: Lucida;
+	color: #ff5a5a;
+	margin-top: 100px;
+	margin-left: 180px;
+}
+
+#buttons {
+	color: #f7f94d;
+	font-family: Lucida;
+	margin-left: 50px;
+}
+
+#buttons p {
+	text-align: center;
+	margin-top: 30px;
+}
+
+.button {
+	height: 110px;
+	width: 110px;
+	background-color: #ff5a5a;
+	border-radius: 100%;
+	position: relative;
+	float: left;
+	margin-left: 10px;
+	cursor: pointer;
+	border: 0px solid #f7f94d;
+}
